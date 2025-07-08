@@ -1,12 +1,46 @@
-# React + Vite
+# 🎬 Movie Finder App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive movie discovery app built using **React**, **Vite**, the **OMDb API**, and **Appwrite**. Instantly search for movies, see trending picks based on popular searches, and explore movie details with a clean UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## Expanding the ESLint configuration
+- 🔍 Instant Search with Debounce (500ms)
+- 🔥 Trending Movies Section powered by Appwrite
+- 📊 Search Count Tracking with Appwrite Database
+- 🎥 Live Movie Data from [OMDb API](https://www.omdbapi.com/)
+- 🌀 Default Random Suggestions on Load
+- 📱 Fully Responsive Design
+- 🧠 Built using modern React stack (Vite, Hooks)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Tech Stack
+
+| Tech                   | Purpose                           |
+|------------------------|-----------------------------------|
+| **React + Vite**       | Frontend UI and performance       |
+| **OMDb API**           | Movie data (title, poster, year)  |
+| **Appwrite**           | Backend as a Service (database)   |
+| **Tailwind CSS / CSS** | Styling                           |
+| **react-use**          | Debouncing and useful hooks       |
+
+---
+
+## 🧪 Demo
+
+👉 [Live Demo](https://your-netlify-app-link.netlify.app)  
+(Replace with your actual Netlify URL after deployment)
+
+---
+
+## ⚙️ Environment Setup
+
+### 📁 `.env` (Vite)
+
+```env
+VITE_OMDB_API_KEY=your_omdb_api_key
+VITE_APPWRITE_PROJECT_ID=your_appwrite_project_id
+VITE_APPWRITE_DATABASE_ID=your_appwrite_database_id
+VITE_APPWRITE_COLLECTION_ID=your_appwrite_collection_id
