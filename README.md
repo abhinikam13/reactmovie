@@ -30,8 +30,8 @@ A sleek and responsive movie discovery app built using **React**, **Vite**, the 
 
 ## 🧪 Demo
 
-👉 [Live Demo](https://your-netlify-app-link.netlify.app)  
-(Replace with your actual Netlify URL after deployment)
+👉 [Live Demo](https://startling-cranachan-d31676.netlify.app/)  
+
 
 ---
 
